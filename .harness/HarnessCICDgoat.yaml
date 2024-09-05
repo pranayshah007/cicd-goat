@@ -36,9 +36,10 @@ pipeline:
         description: ""
         type: CI
         spec:
-          cloneCodebase: false
+          cloneCodebase: true
           caching:
             enabled: true
+            paths: []
           platform:
             os: Linux
             arch: Amd64
@@ -54,3 +55,10 @@ pipeline:
                   spec:
                     shell: Sh
                     command: fail
+  properties:
+    ci:
+      codebase:
+        connectorRef: pranaypersonalall
+        repoName: cicd-goat
+        build: <+input>
+        sparseCheckout: []
