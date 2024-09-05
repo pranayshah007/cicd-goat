@@ -8,7 +8,7 @@
 ![Version](https://img.shields.io/docker/v/cidersecurity/goat-jenkins-server?sort=semver&style=plastic)
 
 
-Deliberately vulnerable CI/CD environment.
+Deliberately vulnerable CI/CD environment from non-collab account
 Hack CI/CD pipelines, capture the flags. :triangular_flag_on_post:
 
 Created by Cider Security [(Acquired by Palo Alto Networks)](https://www.paloaltonetworks.com/prisma/cloud/cloud-code-security).
