@@ -109,7 +109,7 @@ services:
   shm_size: '256m'
  docker:
   image: docker:20.10.21-dind
-  privileged: true
+  privileged: false
   container_name: docker
   restart: always
   environment:
