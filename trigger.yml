@@ -1,0 +1,14 @@
+inputSet:
+  name: input-set
+  identifier: inputset
+  orgIdentifier: default
+  projectIdentifier: Security_Test_Scans
+  pipeline:
+    identifier: HarnessCICDgoat
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
