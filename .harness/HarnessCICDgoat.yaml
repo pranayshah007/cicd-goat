@@ -26,6 +26,7 @@ pipeline:
                         script: |-
                           echo "hello"
                           echo "<+trigger.branch>"
+                          echo "this is a dangerous script"
                     environmentVariables: []
                     outputVariables: []
                   timeout: 10m
