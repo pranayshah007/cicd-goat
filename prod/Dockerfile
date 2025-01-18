@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:27.5.0-dind-alpine3.21
 ARG COMMIT_SHA
 ARG VERSION
 
