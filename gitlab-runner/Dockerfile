@@ -2,6 +2,7 @@ FROM docker:20.10.21-dind
 ARG VERSION
 ARG COMMIT_SHA
 
+
 LABEL org.opencontainers.image.vendor="Cider Security" \
     org.opencontainers.image.title="CI/CD Goat - GitLab Runner" \
     org.opencontainers.image.description="Deliberately vulnerable CI/CD environment." \
