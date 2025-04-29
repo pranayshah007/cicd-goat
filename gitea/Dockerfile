@@ -28,3 +28,4 @@ COPY --chown=git:git app.ini /data/gitea/conf/
 ENTRYPOINT ["/setup/run.sh"]
 
 
+
